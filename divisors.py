@@ -3,3 +3,4 @@ def divisors(a):
 	while i<a:
 		i+=1
 		if a%i == 0:
+			print(i"\n")
