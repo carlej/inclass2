@@ -9,3 +9,4 @@ def passgen(a):
 		print(random.choice(s))
 
 val = input("Enter a number = ")
+passgen(val)
