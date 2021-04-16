@@ -7,3 +7,5 @@ def passgen(a):
 	i = 0
 	while i<a:
 		print(random.choice(s))
+
+val = input("Enter a number = ")
