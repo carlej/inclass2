@@ -1,4 +1,5 @@
 import string
+import random
 def passgen(a):
 	s = string.ascii_letters
 	s += string.ascii_digits
@@ -6,3 +7,5 @@ def passgen(a):
 	i = 0
 	while i<a:
 		random.choice(s)
+		if i == 0:
+			st = 
