@@ -3,5 +3,8 @@ def calculate(a,b):
 	difference = a-b
 	multiply = a*b
 	divide = a/b
+	print("sum = "sum" Difference = "difference" Muliply = "multiply" Divide = "divide)
 
-c = input("Enter choice\nSum = 1\nDifference = 2\nMultiply = 3\nDivide = 4")
+a = input("Enter first number = ")
+b = input("Enter second number = ")
+calculate(a,b)
