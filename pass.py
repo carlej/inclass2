@@ -1,1 +1,2 @@
-def passgen(a)
+import string
+def passgen(a):
