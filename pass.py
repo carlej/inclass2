@@ -6,6 +6,4 @@ def passgen(a):
 	s += string.ascii_punctuation
 	i = 0
 	while i<a:
-		random.choice(s)
-		if i == 0:
-			st = 
+		print(random.choice(s))
